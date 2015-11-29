@@ -140,7 +140,7 @@ def _search_vector(keywords, AND):
     return _search_map(keywords, AND, 'vector', 'v.info', 'e')
 
 def _search_raster_3d(keywords, AND):
-    return _search_map(keywords, AND, 'raster_3d', 'r3.info', 'h')
+    return _search_map(keywords, AND, 'raster_3d', 'r3.info', 'gh')
 
 def _search_label(keywords, AND):
     return []
